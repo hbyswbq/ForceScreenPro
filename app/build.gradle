@@ -28,6 +28,9 @@ android {
 }
 
 repositories {
+    maven {
+        url 'https://api.xposed.info/repository/maven-releases'
+    }
     google()
     mavenCentral()
 }
